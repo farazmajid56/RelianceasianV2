@@ -128,3 +128,50 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Compiled code
+dist/
+build/
+
+# Dependency directories
+.bower_components/
+
+# Testing
+coverage/
+*.lcov
+
+# Production build
+/build
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDEs and text editor files
+.vscode/
+.idea/
+.DS_Store
+
+# Service files
+.eslintcache
+.parcel-cache
+.next/
